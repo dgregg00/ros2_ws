@@ -1,0 +1,38 @@
+[0.495s] Invoking command in '/home/dani/ros2_ws/build/ros2_course': PYTHONPATH=/home/dani/ros2_ws/build/ros2_course/prefix_override:/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/dani/ros2_ws/build/ros2_course/build
+[0.708s] running develop
+[0.709s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.709s]   warnings.warn(
+[0.710s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.710s]   warnings.warn(
+[0.874s] Invoked command in '/home/dani/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/dani/ros2_ws/build/ros2_course/prefix_override:/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/dani/ros2_ws/build/ros2_course/build
+[0.875s] Invoking command in '/home/dani/ros2_ws/src/ros2_course': PYTHONPATH=/home/dani/ros2_ws/build/ros2_course/prefix_override:/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/dani/ros2_ws/build/ros2_course/build install --record /home/dani/ros2_ws/build/ros2_course/install.log --single-version-externally-managed
+[1.087s] running egg_info
+[1.087s] writing ../../build/ros2_course/ros2_course.egg-info/PKG-INFO
+[1.088s] writing dependency_links to ../../build/ros2_course/ros2_course.egg-info/dependency_links.txt
+[1.088s] writing entry points to ../../build/ros2_course/ros2_course.egg-info/entry_points.txt
+[1.088s] writing requirements to ../../build/ros2_course/ros2_course.egg-info/requires.txt
+[1.088s] writing top-level names to ../../build/ros2_course/ros2_course.egg-info/top_level.txt
+[1.090s] reading manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[1.090s] writing manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[1.090s] running build
+[1.090s] running build_py
+[1.090s] copying ros2_course/psm_grasp.py -> /home/dani/ros2_ws/build/ros2_course/build/lib/ros2_course
+[1.091s] running install
+[1.091s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.091s]   warnings.warn(
+[1.091s] running install_lib
+[1.092s] copying /home/dani/ros2_ws/build/ros2_course/build/lib/ros2_course/psm_grasp.py -> /home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[1.092s] byte-compiling /home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/psm_grasp.py to psm_grasp.cpython-310.pyc
+[1.093s] running install_data
+[1.093s] running install_egg_info
+[1.095s] removing '/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course-0.0.0-py3.10.egg-info' (and everything under it)
+[1.095s] Copying ../../build/ros2_course/ros2_course.egg-info to /home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course-0.0.0-py3.10.egg-info
+[1.096s] running install_scripts
+[1.115s] Installing dummy_marker script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+[1.115s] Installing hello script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+[1.115s] Installing listener script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+[1.115s] Installing psm_grasp script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+[1.115s] Installing talker script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+[1.115s] Installing turtlesim_controller script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+[1.115s] writing list of installed files to '/home/dani/ros2_ws/build/ros2_course/install.log'
+[1.135s] Invoked command in '/home/dani/ros2_ws/src/ros2_course' returned '0': PYTHONPATH=/home/dani/ros2_ws/build/ros2_course/prefix_override:/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/dani/ros2_ws/build/ros2_course/build install --record /home/dani/ros2_ws/build/ros2_course/install.log --single-version-externally-managed

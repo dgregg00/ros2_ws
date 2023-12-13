@@ -1,0 +1,24 @@
+[0.400s] Invoking command in '/home/dani/ros2_ws/build/ros2_course': PYTHONPATH=/home/dani/ros2_ws/build/ros2_course/prefix_override:/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dani/ros2_ws/build/ros2_course/build --no-deps install_data
+[0.576s] running develop
+[0.576s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.576s]   warnings.warn(
+[0.577s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.577s]   warnings.warn(
+[0.686s] running egg_info
+[0.686s] writing ros2_course.egg-info/PKG-INFO
+[0.687s] writing dependency_links to ros2_course.egg-info/dependency_links.txt
+[0.687s] writing entry points to ros2_course.egg-info/entry_points.txt
+[0.687s] writing requirements to ros2_course.egg-info/requires.txt
+[0.687s] writing top-level names to ros2_course.egg-info/top_level.txt
+[0.688s] reading manifest file 'ros2_course.egg-info/SOURCES.txt'
+[0.689s] writing manifest file 'ros2_course.egg-info/SOURCES.txt'
+[0.689s] running build_ext
+[0.690s] Creating /home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)
+[0.690s] Installing hello script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+[0.691s] Installing listener script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+[0.691s] Installing talker script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+[0.691s] Installing turtlesim_controller script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+[0.691s] 
+[0.691s] Installed /home/dani/ros2_ws/build/ros2_course
+[0.691s] running install_data
+[0.708s] Invoked command in '/home/dani/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/dani/ros2_ws/build/ros2_course/prefix_override:/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dani/ros2_ws/build/ros2_course/build --no-deps install_data

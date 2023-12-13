@@ -1,0 +1,33 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ../../build/ros2_course/ros2_course.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_course/ros2_course.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_course/ros2_course.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_course/ros2_course.egg-info/requires.txt
+writing top-level names to ../../build/ros2_course/ros2_course.egg-info/top_level.txt
+reading manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_course/turtlesim_controller.py -> /home/dani/ros2_ws/build/ros2_course/build/lib/ros2_course
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/dani/ros2_ws/build/ros2_course/build/lib/ros2_course/turtlesim_controller.py -> /home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+byte-compiling /home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/turtlesim_controller.py to turtlesim_controller.cpython-310.pyc
+Sorry: IndentationError: unexpected indent (turtlesim_controller.py, line 13)
+running install_data
+running install_egg_info
+removing '/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ros2_course/ros2_course.egg-info to /home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hello script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+Installing listener script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+Installing talker script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+Installing turtlesim_controller script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course
+writing list of installed files to '/home/dani/ros2_ws/build/ros2_course/install.log'

@@ -1,0 +1,10 @@
+[console_scripts]
+dummy_marker = ros2_course.dummy_marker:main
+hello = ros2_course.hello:main
+listener = ros2_course.listener:main
+psm_grasp = ros2_course.psm_grasp:main
+talker = ros2_course.talker:main
+topic_latcher = ros2_course.topic_latcher:main
+turtlesim_controller = ros2_course.turtlesim_controller:main
+ur_controller = ros2_course.ur_controller:main
+

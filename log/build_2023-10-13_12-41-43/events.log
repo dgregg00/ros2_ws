@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (ros2_course) JobQueued: {'identifier': 'ros2_course', 'dependencies': OrderedDict()}
+[0.000517] (ros2_course) JobStarted: {'identifier': 'ros2_course'}
+[0.100001] (-) TimerEvent: {}
+[0.200133] (-) TimerEvent: {}
+[0.300265] (-) TimerEvent: {}
+[0.400394] (-) TimerEvent: {}
+[0.494646] (ros2_course) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/dani/ros2_ws/build/ros2_course/build'], 'cwd': '/home/dani/ros2_ws/build/ros2_course', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'dani', 'XDG_SESSION_TYPE': 'wayland', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'SHLVL': '78', 'HOME': '/home/dani', 'DESKTOP_SESSION': 'ubuntu', 'QTDIR': '/usr/lib/x86_64-linux-gnu/qt5', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/QtProject-qtcreator-ros-latest.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '1650', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SYSTEMD_EXEC_PID': '1861', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '26488', 'COLCON_PREFIX_PATH': '/home/dani/ros2_ws/install', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'dani', 'JOURNAL_STREAM': '8:36360', '_': '/usr/bin/env', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'USERNAME': 'dani', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '03363455877740d6bd6927b01febdfb6', 'SESSION_MANAGER': 'local/msi:@/tmp/.ICE-unix/1842,unix/msi:/tmp/.ICE-unix/1842', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YUQXC2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'AMENT_PREFIX_PATH': '/home/dani/ros2_ws/install/ros2_course:/opt/ros/humble', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'C', 'PWD': '/home/dani/ros2_ws/build/ros2_course', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dani/ros2_ws/build/ros2_course/prefix_override:/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages:/home/dani/ros2_ws/build/ros2_course:/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.500470] (-) TimerEvent: {}
+[0.600582] (-) TimerEvent: {}
+[0.700711] (-) TimerEvent: {}
+[0.708798] (ros2_course) StdoutLine: {'line': b'running develop\n'}
+[0.709045] (ros2_course) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.709153] (ros2_course) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.710156] (ros2_course) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.710251] (ros2_course) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.800789] (-) TimerEvent: {}
+[0.874265] (ros2_course) CommandEnded: {'returncode': 0}
+[0.875283] (ros2_course) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_course', 'build', '--build-base', '/home/dani/ros2_ws/build/ros2_course/build', 'install', '--record', '/home/dani/ros2_ws/build/ros2_course/install.log', '--single-version-externally-managed'], 'cwd': '/home/dani/ros2_ws/src/ros2_course', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'dani', 'XDG_SESSION_TYPE': 'wayland', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'SHLVL': '78', 'HOME': '/home/dani', 'DESKTOP_SESSION': 'ubuntu', 'QTDIR': '/usr/lib/x86_64-linux-gnu/qt5', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/QtProject-qtcreator-ros-latest.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '1650', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SYSTEMD_EXEC_PID': '1861', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '26488', 'COLCON_PREFIX_PATH': '/home/dani/ros2_ws/install', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'dani', 'JOURNAL_STREAM': '8:36360', '_': '/usr/bin/env', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'USERNAME': 'dani', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '03363455877740d6bd6927b01febdfb6', 'SESSION_MANAGER': 'local/msi:@/tmp/.ICE-unix/1842,unix/msi:/tmp/.ICE-unix/1842', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YUQXC2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'AMENT_PREFIX_PATH': '/home/dani/ros2_ws/install/ros2_course:/opt/ros/humble', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'C', 'PWD': '/home/dani/ros2_ws/build/ros2_course', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dani/ros2_ws/build/ros2_course/prefix_override:/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages:/home/dani/ros2_ws/build/ros2_course:/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.900888] (-) TimerEvent: {}
+[1.001040] (-) TimerEvent: {}
+[1.087293] (ros2_course) StdoutLine: {'line': b'running egg_info\n'}
+[1.087851] (ros2_course) StdoutLine: {'line': b'writing ../../build/ros2_course/ros2_course.egg-info/PKG-INFO\n'}
+[1.087977] (ros2_course) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_course/ros2_course.egg-info/dependency_links.txt\n'}
+[1.088197] (ros2_course) StdoutLine: {'line': b'writing entry points to ../../build/ros2_course/ros2_course.egg-info/entry_points.txt\n'}
+[1.088257] (ros2_course) StdoutLine: {'line': b'writing requirements to ../../build/ros2_course/ros2_course.egg-info/requires.txt\n'}
+[1.088398] (ros2_course) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_course/ros2_course.egg-info/top_level.txt\n'}
+[1.090006] (ros2_course) StdoutLine: {'line': b"reading manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'\n"}
+[1.090713] (ros2_course) StdoutLine: {'line': b"writing manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'\n"}
+[1.090774] (ros2_course) StdoutLine: {'line': b'running build\n'}
+[1.090834] (ros2_course) StdoutLine: {'line': b'running build_py\n'}
+[1.090972] (ros2_course) StdoutLine: {'line': b'copying ros2_course/psm_grasp.py -> /home/dani/ros2_ws/build/ros2_course/build/lib/ros2_course\n'}
+[1.091258] (ros2_course) StdoutLine: {'line': b'running install\n'}
+[1.091317] (ros2_course) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.091380] (ros2_course) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.091561] (ros2_course) StdoutLine: {'line': b'running install_lib\n'}
+[1.092077] (ros2_course) StdoutLine: {'line': b'copying /home/dani/ros2_ws/build/ros2_course/build/lib/ros2_course/psm_grasp.py -> /home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course\n'}
+[1.092542] (ros2_course) StdoutLine: {'line': b'byte-compiling /home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/psm_grasp.py to psm_grasp.cpython-310.pyc\n'}
+[1.093191] (ros2_course) StdoutLine: {'line': b'running install_data\n'}
+[1.093682] (ros2_course) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.095134] (ros2_course) StdoutLine: {'line': b"removing '/home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.095370] (ros2_course) StdoutLine: {'line': b'Copying ../../build/ros2_course/ros2_course.egg-info to /home/dani/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course-0.0.0-py3.10.egg-info\n'}
+[1.096087] (ros2_course) StdoutLine: {'line': b'running install_scripts\n'}
+[1.101113] (-) TimerEvent: {}
+[1.114946] (ros2_course) StdoutLine: {'line': b'Installing dummy_marker script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.115185] (ros2_course) StdoutLine: {'line': b'Installing hello script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.115310] (ros2_course) StdoutLine: {'line': b'Installing listener script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.115414] (ros2_course) StdoutLine: {'line': b'Installing psm_grasp script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.115468] (ros2_course) StdoutLine: {'line': b'Installing talker script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.115591] (ros2_course) StdoutLine: {'line': b'Installing turtlesim_controller script to /home/dani/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.115839] (ros2_course) StdoutLine: {'line': b"writing list of installed files to '/home/dani/ros2_ws/build/ros2_course/install.log'\n"}
+[1.135772] (ros2_course) CommandEnded: {'returncode': 0}
+[1.146546] (ros2_course) JobEnded: {'identifier': 'ros2_course', 'rc': 0}
+[1.146949] (-) EventReactorShutdown: {}
